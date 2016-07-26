@@ -1,6 +1,7 @@
 package com.xpower.android5preview.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +18,7 @@ import com.xpower.android5preview.R;
  */
 public class TextInputLayoutActivity extends AppCompatActivity {
 
+    private Context context;
     private TextInputLayout mTextInputAccount, mTextInputPw;
     private EditText mEtAccout, mEtPassword;
     private Toolbar mToolBar;
