@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardCornerRadius="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:elevation="20dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/item_demo_iv"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:id="@+id/item_demo_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:textSize="30dp"
+                android:text="4399小游戏"/>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
